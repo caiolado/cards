@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+.supreme{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 90px;
+  
+}
+
+.cartao{
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: solid 1 px black;
+    
+
+}
+ .img1{
+    height: 250px;
+    background-color: rgb(65, 252, 252);
+    background-image: url(img/ps3-lancado-brasil.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 40px;
+    border-radius:20px 20px 0px 0px;
+    border: solid 1 px black;
+}
+    
+
+
+.img2{
+    height: 250px;
+    background-color: rgb(65, 252, 252);
+    background-image: url(img/ps4.png);
+    background-size: 85%;
+    background-position: 40px;
+    background-repeat: no-repeat;
+    border-radius:20px 20px 0px 0px;
+    border: solid 1 px black;
+    
+}
+
+.img3{
+    
+    height: 250px;
+    background-color: rgb(65, 252, 252);
+    background-image: url(img/ps5.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 50px;
+    border-radius:20px 20px 0px 0px;
+    border: solid 1 px black;
+
+    
+}
+
+h2{
+    background-color: rgb(65, 252, 252);
+padding-left: 80px;
+}
+
+.play3{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 15px;
+
+}
+
+.play4{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 15px;
+    
+}
+
+.play5{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 15px;
+    
+}
+
+.buy3{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 90px;
+    padding: 7px;
+    font-size: larger;
+    background-color: rgb(65, 252, 252);
+    
+}
+
+
+.cartao:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+.buy3:hover{
+  background-color: rgb(17, 0, 255);
+  text-decoration: underline;
+}
